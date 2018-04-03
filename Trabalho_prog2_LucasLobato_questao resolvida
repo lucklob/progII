@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+
+void updown(char *word){
+	
+	strupr(word);
+	
+}
+
+main(){
+		
+	char word[20], troca[20];
+	
+	printf("Dig uma palavra para a conversao:");
+	gets(word);
+	
+	updown(word);
+	
+	printf("\n Palavra com letras maiusculas: %s", word);
+
+	
+	return 0;
+}
